@@ -1,0 +1,180 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{67E11EBD-FCD7-4547-87EA-1AA4E0537E23}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="ActiveBackground\backgrounds.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ChromeFace\chromeface.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Fireworks\OpenGLApp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Lens\LensDemo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="MegaDemo\Biohazard.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="OptimizeSA\Optimize.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Peristalsis\Peristalsis.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PlasmaTunnel\tunnel.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="PocketWatch\pocketwatch.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Spherical\spherical.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Terrains\lesson35b.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="threads\glThreads.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="WaterRipples\water2.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="backgrounds">
+			<MSBuild Projects="ActiveBackground\backgrounds.dproj"/>
+		</Target>
+		<Target Name="backgrounds:Clean">
+			<MSBuild Projects="ActiveBackground\backgrounds.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="backgrounds:Make">
+			<MSBuild Projects="ActiveBackground\backgrounds.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="chromeface">
+			<MSBuild Projects="ChromeFace\chromeface.dproj"/>
+		</Target>
+		<Target Name="chromeface:Clean">
+			<MSBuild Projects="ChromeFace\chromeface.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="chromeface:Make">
+			<MSBuild Projects="ChromeFace\chromeface.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="OpenGLApp">
+			<MSBuild Projects="Fireworks\OpenGLApp.dproj"/>
+		</Target>
+		<Target Name="OpenGLApp:Clean">
+			<MSBuild Projects="Fireworks\OpenGLApp.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="OpenGLApp:Make">
+			<MSBuild Projects="Fireworks\OpenGLApp.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="LensDemo">
+			<MSBuild Projects="Lens\LensDemo.dproj"/>
+		</Target>
+		<Target Name="LensDemo:Clean">
+			<MSBuild Projects="Lens\LensDemo.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="LensDemo:Make">
+			<MSBuild Projects="Lens\LensDemo.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Biohazard">
+			<MSBuild Projects="MegaDemo\Biohazard.dproj"/>
+		</Target>
+		<Target Name="Biohazard:Clean">
+			<MSBuild Projects="MegaDemo\Biohazard.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Biohazard:Make">
+			<MSBuild Projects="MegaDemo\Biohazard.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Optimize">
+			<MSBuild Projects="OptimizeSA\Optimize.dproj"/>
+		</Target>
+		<Target Name="Optimize:Clean">
+			<MSBuild Projects="OptimizeSA\Optimize.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Optimize:Make">
+			<MSBuild Projects="OptimizeSA\Optimize.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Peristalsis">
+			<MSBuild Projects="Peristalsis\Peristalsis.dproj"/>
+		</Target>
+		<Target Name="Peristalsis:Clean">
+			<MSBuild Projects="Peristalsis\Peristalsis.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Peristalsis:Make">
+			<MSBuild Projects="Peristalsis\Peristalsis.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="tunnel">
+			<MSBuild Projects="PlasmaTunnel\tunnel.dproj"/>
+		</Target>
+		<Target Name="tunnel:Clean">
+			<MSBuild Projects="PlasmaTunnel\tunnel.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="tunnel:Make">
+			<MSBuild Projects="PlasmaTunnel\tunnel.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="pocketwatch">
+			<MSBuild Projects="PocketWatch\pocketwatch.dproj"/>
+		</Target>
+		<Target Name="pocketwatch:Clean">
+			<MSBuild Projects="PocketWatch\pocketwatch.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="pocketwatch:Make">
+			<MSBuild Projects="PocketWatch\pocketwatch.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="spherical">
+			<MSBuild Projects="Spherical\spherical.dproj"/>
+		</Target>
+		<Target Name="spherical:Clean">
+			<MSBuild Projects="Spherical\spherical.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="spherical:Make">
+			<MSBuild Projects="Spherical\spherical.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="lesson35b">
+			<MSBuild Projects="Terrains\lesson35b.dproj"/>
+		</Target>
+		<Target Name="lesson35b:Clean">
+			<MSBuild Projects="Terrains\lesson35b.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="lesson35b:Make">
+			<MSBuild Projects="Terrains\lesson35b.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="glThreads">
+			<MSBuild Projects="threads\glThreads.dproj"/>
+		</Target>
+		<Target Name="glThreads:Clean">
+			<MSBuild Projects="threads\glThreads.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="glThreads:Make">
+			<MSBuild Projects="threads\glThreads.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="water2">
+			<MSBuild Projects="WaterRipples\water2.dproj"/>
+		</Target>
+		<Target Name="water2:Clean">
+			<MSBuild Projects="WaterRipples\water2.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="water2:Make">
+			<MSBuild Projects="WaterRipples\water2.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="backgrounds;chromeface;OpenGLApp;LensDemo;Biohazard;Optimize;Peristalsis;tunnel;pocketwatch;spherical;lesson35b;glThreads;water2"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="backgrounds:Clean;chromeface:Clean;OpenGLApp:Clean;LensDemo:Clean;Biohazard:Clean;Optimize:Clean;Peristalsis:Clean;tunnel:Clean;pocketwatch:Clean;spherical:Clean;lesson35b:Clean;glThreads:Clean;water2:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="backgrounds:Make;chromeface:Make;OpenGLApp:Make;LensDemo:Make;Biohazard:Make;Optimize:Make;Peristalsis:Make;tunnel:Make;pocketwatch:Make;spherical:Make;lesson35b:Make;glThreads:Make;water2:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>
